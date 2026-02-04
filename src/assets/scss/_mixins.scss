@@ -1,0 +1,10 @@
+@mixin grid-columns($columns, $gap: 10px) {
+  display: grid;
+  grid-template-columns: $columns;
+  gap: $gap;
+}
+
+@mixin set-font($size, $weight) {
+    font-size: $size;
+    font-weight: $weight;
+}
